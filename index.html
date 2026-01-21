@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fletcher Rymos Ma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-box">
+      <img src="Profile.jpg" alt="Profile photo" class="profile-pic" />
+      <h1>Fletcher Rymos Ma</h1>
+      <p class="small">Student / Beginner Web Developer</p>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="themeBtn" type="button">Toggle Dark Mode</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! My name is Fletcher Rymos Ma. I'm a college student learning web development.
+        I enjoy building simple websites and practicing HTML, CSS, and JavaScript.
+        My goal is to improve my front-end skills and create projects that are useful and easy to use.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><b>University of the Cordilleras</b> — BSIT Major in Web Technology (2023 - 2026)</li>
+        <li><b>San Isidro School of Abatan Inc.</b> — Senior High (2021 - 2023)</li>
+        <li><b>San Isidro School of Abatan Inc.</b> — Junior High (2017 - 2021)</li>
+        <li><b>Abatan Elementary School</b> — Primary (2011 - 2017)</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <b>Role Title</b> — Company/Organization (Year - Year)
+          <br />
+          <span class="small">Add 1–2 lines about what you did.</span>
+        </li>
+        <li>
+          <b>Role Title</b> — Company/Organization (Year - Year)
+          <br />
+          <span class="small">Add 1–2 lines about what you did.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p class="tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>GitHub</span>
+        <span>Communication</span>
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Personal Portfolio Page</h3>
+        <p>A basic portfolio website with sections for education, skills, projects, and a contact form.</p>
+        <a href="#" target="_blank">Live</a> | <a href="#" target="_blank">Code</a>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:fletcherrymosma@gmail.com">fletcherrymosma@gmail.com</a></p>
+
+      <h3>Send a message</h3>
+      <form id="contactForm">
+        <label>
+          Name:
+          <input id="name" type="text" />
+        </label>
+
+        <label>
+          Email:
+          <input id="email" type="email" />
+        </label>
+
+        <label>
+          Message:
+          <textarea id="message" rows="4"></textarea>
+        </label>
+
+        <button type="submit">Send</button>
+        <p id="formMsg" class="small"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="small">© <span id="year"></span> Fletcher Rymos Ma</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
